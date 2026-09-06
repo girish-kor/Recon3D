@@ -1,0 +1,25 @@
+disabled_rules:
+  - force_cast
+  - force_try
+  - line_length
+  - trailing_whitespace
+  - identifier_name
+
+opt_in_rules:
+  - empty_count
+  - explicit_init
+  - closure_spacing
+  - overridden_super_call
+  - private_outlet
+  - redundant_nil_coalescing
+  - sorted_imports
+  - vertical_whitespace_closing_braces
+
+excluded:
+  - Pods
+  - Carthage
+  - .build
+
+line_length: 150
+type_body_length: 300
+function_body_length: 100
